@@ -2229,7 +2229,7 @@ a {
   vertical-align: middle;
   margin-right: 20px;
   color: #fff;
-  background-color: #828282;
+  background-color: #252c59;
   border-radius: 5px;
   padding: 5px 10px;
 }
@@ -2237,7 +2237,7 @@ a {
   display: inline-block;
   vertical-align: middle;
   text-transform: uppercase;
-  color: #828282;
+  color: #c1ac51;
 }
 .video-responsive {
   position: relative;
@@ -2384,7 +2384,14 @@ a {
   padding-top: 3em;
   padding-bottom: 3em;
   color: #f3f3f3;
-  background: #525b64;
+  position: relative;
+  background-image: linear-gradient(to right, #c1ac51, #252c59),
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background-blend-mode: normal, darken;
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 200px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .footer-content-blocks {
   padding-left: 15px;
