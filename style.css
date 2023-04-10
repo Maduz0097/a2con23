@@ -2339,7 +2339,9 @@ a {
 	background-image: url(img/abansfinance-logo.jpg)
 }
 .sponsor-lookatme{
-	background-image: url(img/lookatmelogo.jpg)
+	background-image: url(img/lookatmelogo.png);
+  width: 100px;
+ height:118px;
 }
 .sponsor-saegiscampus{
 	background-image: url(img/saegiscampus-logo.jpg)
